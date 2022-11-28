@@ -16,7 +16,7 @@ while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
 for i in "${spinner[@]}"
 do
 	tput civis
-	echo -ne "\033[34m\r[*] Downloading..please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
+	echo -ne "\033[34m\r[Praneeth_Hackz_2010] Downloading..please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
 	sleep $delay
 	printf "\b\b\b\b\b\b\b\b";
 done
@@ -93,13 +93,13 @@ THEADER ()
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2020)
+Praneeth_Hackz_2010 (2010)
 		
-	menu
+   ++Praneeth_Hackz_2010++
 +---------------------------*/
-.......Terminal-Header......
+.......Termux Customise......
 +---------------------------*/
-oh-my-zsh users only....
+Hackers  only....
 \033[0m";
 ok=0
 while [ $ok = 0 ];
@@ -116,13 +116,11 @@ if [[ ${#PROC} -gt 8 ]]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2020)
-
-	menu
+   ++Praneeth_Hackz_2010++
 +---------------------------*/
-.......Terminal-Header......
+.......Termux Customise......
 +---------------------------*/
-oh-my-zsh users only....
+Hackers  only....
 \033[0m";
 	echo ""
 	echo -e "\e[1;34m \033[32mPlease enter less than 9 characters...\033[0m"
@@ -144,7 +142,7 @@ echo "";
 #echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo "";
 echo -e "
-\033[0;31m┌─[\033[1;34m$TNAME\033[1;33m@\033[1;36mtermux\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
+\033[0;31m┌─[\033[1;34m$TNAME\033[1;33m@\033[1;36mPraneeth_Hackz\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
 \033[0;31m└──╼ \e[1;31m❯\e[1;34m❯\e[1;90m❯\033[0m "
 
 tput setaf 3
@@ -174,7 +172,7 @@ TNAME="$PROC"
 setopt prompt_subst
 
 PROMPT=$'
-%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}Hacking%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
+%{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}Praneeth_Hackz%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
 %{\e[0;31m%}└──╼ %{\e[1;31m%}%B❯%{\e[1;34m%}❯%{\e[1;90m%}❯%{\e[0m%}%b '
 
 ## Replace 'ls' with 'exa' (if available) + some aliases.
